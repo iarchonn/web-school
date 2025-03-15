@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IR School</title>
+    <link rel="stylesheet" href="sch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"><img src="Images/Logo.png" alt="" class="logo"></a>
+            <div class="navLinks" id="NAVLINKS">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="About.html">About</a></li>
+                    <li> <a href="Course.html">Course</a></li>
+                    <li> <a href="Blog.html">Blog</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Achivement & Online Programs for 2025</h1>
+    </section>
+
+
+<!-- Blog page -->
+
+    <section class="blogContent">
+        <div class="row">
+            <div class="blogLeft">
+                <img src="Images/Basket.JPG">
+                <h2>Gracias 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id quia sed laudantium excepturi accusamus temporibus adipisci qui, autem aspernatur, ad esse quidem ratione voluptatem dolor natus possimus labore eligendi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ullam possimus nihil, cupiditate repudiandae quis porro aliquam expedita optio laudantium! Officia, unde autem? Molestias incidunt, quos ipsum illum iusto aut aliquam unde vitae. At dicta reiciendis doloremque nemo, veritatis culpa explicabo. Odit ut impedit facilis voluptatem quos labore eos esse?</p>
+
+                <div class="commentBox">
+                    <h3>leave a comment</h3>
+                    <form class="commentForm">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="heroBtn redBtn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blogRight">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Informatics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Business Ideas</span>
+                    <span>16</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>18</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quidem ab vero mollitia reiciendis, quos, <br>aliquam optio laudantium quam quas delectus deserunt dolorum provident veniam odio consequatur? Voluptatum, numquam delectus!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Irwan Wafi</p>
+    </section>
+
+        <!-- Java Script for toogle menu -->
+        <script>
+            var NAVLINKS = document.getElementById("NAVLINKS");
+
+            function showMenu(){
+                NAVLINKS.style.top="0"; 
+            }
+
+            function hideMenu(){
+                NAVLINKS.style.top="-100vh";
+            }
+        </script> 
+</body>
+</html>

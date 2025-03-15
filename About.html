@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IR School</title>
+    <link rel="stylesheet" href="sch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"><img src="Images/Logo.png" alt="" class="logo"></a>
+            <div class="navLinks" id="NAVLINKS">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="About.html">About</a></li>
+                    <li> <a href="Course.html">Course</a></li>
+                    <li> <a href="Blog.html">Blog</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+    <section class="aboutUs">
+        <div class="row">
+            <div class="aboutCol">
+                <h1>KELASS- Your Path to Excellence</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere neque tempore error molestias, facilis similique dolore porro ad voluptate nemo doloribus cum nostrum at magni velit eligendi, adipisci possimus placeat.</p>
+                <a href="" class="heroBtn redBtn">Explore Now</a>
+            </div>
+            <div class="aboutCol">
+                <img src="Images/Aghabetter.JPG" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quidem ab vero mollitia reiciendis, quos, <br>aliquam optio laudantium quam quas delectus deserunt dolorum provident veniam odio consequatur? Voluptatum, numquam delectus!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Irwan Wafi</p>
+    </section>
+
+        <!-- Java Script for toogle menu -->
+        <script>
+            var NAVLINKS = document.getElementById("NAVLINKS");
+
+            function showMenu(){
+                NAVLINKS.style.top="0"; 
+            }
+
+            function hideMenu(){
+                NAVLINKS.style.top="-100vh";
+            }
+        </script> 
+</body>
+</html>

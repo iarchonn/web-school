@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IR School</title>
+    <link rel="stylesheet" href="sch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"><img src="Images/Logo.png" alt="" class="logo"></a>
+            <div class="navLinks" id="NAVLINKS">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="About.html">About</a></li>
+                    <li> <a href="Course.html">Course</a></li>
+                    <li> <a href="Blog.html">Blog</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!-- Contact us  -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4474.470900203794!2d112.90135057500339!3d-7.637568692378291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7c5db095c80bf%3A0xaee91ce881ac67aa!2sSekolah%20Menengah%20Atas%201%20Pasuruan!5e1!3m2!1sid!2sid!4v1740884337408!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contactUs">
+    <div class="row">
+        <div class="contactCol">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Pasuruan, Jawa Timur,IND</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+62 812 345 454 234</h5>
+                    <p>monday to saturday</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>kelasss@gmail.com</h5>
+                    <p>Pasuruan, Jawa Timur,IND</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contactCol">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="text" placeholder="Enter Your Email addres" required>
+                <input type="text" placeholder="Enter Your Subject" required>
+                <textarea rows="8" placeholder="Massage" required></textarea>
+                <button type="submit" class="heroBtn redBtn">Send Massage</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quidem ab vero mollitia reiciendis, quos, <br>aliquam optio laudantium quam quas delectus deserunt dolorum provident veniam odio consequatur? Voluptatum, numquam delectus!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Irwan Wafi</p>
+    </section>
+
+        <!-- Java Script for toogle menu -->
+        <script>
+            var NAVLINKS = document.getElementById("NAVLINKS");
+
+            function showMenu(){
+                NAVLINKS.style.top="0"; 
+            }
+
+            function hideMenu(){
+                NAVLINKS.style.top="-100vh";
+            }
+        </script> 
+</body>
+</html>
